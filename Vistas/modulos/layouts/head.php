@@ -9,7 +9,7 @@
         content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern,  html5, responsive">
     <meta name="author" content="Dreamguys - Bootstrap Admin Template">
     <meta name="robots" content="noindex, nofollow">
-    <title>Apuuray</title>
+    <title>Frieken</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="vistas/dist/assets/img/favicon.png">
 
