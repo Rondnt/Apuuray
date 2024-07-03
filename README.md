@@ -149,6 +149,7 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
 ### Panel de datos generales
 [![2.png](https://i.postimg.cc/Xqjqsnzh/2.png)](https://postimg.cc/phSPTMxY)
 ### Lista de usuarios
+[![3.png](https://i.postimg.cc/Pr7PTscG/3.png)](https://postimg.cc/KRnZDVxQ)
 ### Lista de productos
 ### Realizar compras
 ### Lista de compras
