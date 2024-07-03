@@ -154,7 +154,6 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
 ### Lista de compras
 [![6.png](https://i.postimg.cc/JzDn66p1/6.png)](https://postimg.cc/VJwm5RyT)
 ### Lista de clientes
-[![7.png](https://i.postimg.cc/d0cqWq7B/7.png)](https://postimg.cc/JsKV0C5D)
 ### Lista de trabajadores
 [![8.png](https://i.postimg.cc/CKCwXWkV/8.png)](https://postimg.cc/QBtLWYf6)
 ### Reporte de usuarios
