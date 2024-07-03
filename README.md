@@ -154,6 +154,119 @@ Ricopollo optimiza su cadena de suministro para garantizar la eficiencia y la ca
 
 	**- Competencia Intensa:** Diferenciación a través de la calidad del producto y estrategias de marketing efectivas para superar la competencia.
 
+## **Framework**
+  **FrontEnd**
+- En el FrontEnd utilizamos AJAX, que es una técnica utilizada para actualizar partes de una página web sin recargarla completamente.
+  Implica el uso de JavaScript en el frontend para hacer solicitudes asíncronas al servidor.
+
+	- Beneficios de AJAX:
+
+  	Interactividad Mejorada: Permite actualizar partes de una página web de manera dinámica sin necesidad de recargar la página completa.
+
+  	Mejor Experiencia de Usuario: Las páginas web son más rápidas y responsivas, proporcionando una experiencia de usuario más fluida.
+
+  	Reducción del Tráfico del Servidor: Solo se envían y reciben los datos necesarios, lo que puede reducir la carga en el servidor y el consumo de ancho de banda.
+
+	- ¿Cómo Funciona?
+
+  	Uso de JavaScript: AJAX utiliza JavaScript para enviar solicitudes HTTP al servidor y procesar las respuestas.
+
+  	Interacción con el Servidor: Puede recuperar datos en diversos formatos, como JSON, XML, HTML o texto plano, y actualizar partes específicas del DOM en la página web.
+
+  	Manejo de Eventos: Permite manejar eventos del usuario, como clics o cambios en formularios, y realizar acciones sin necesidad de recargar la página.
+
+- Así mismo estamos utilizando JavaScript para agregar interactividad a las páginas web.
+
+  	- Beneficios:
+
+	Interactividad: Permite responder a eventos del usuario, como clics, desplazamiento y entrada de datos.
+
+	Manipulación del DOM: Permite modificar el contenido y la estructura de las páginas web en tiempo real.
+
+	Compatibilidad: Compatible con todos los navegadores modernos.
+
+	- Ejemplos de Uso:
+
+	Validación de formularios en tiempo real.
+
+	Creación de efectos visuales y animaciones.
+
+	Actualización de contenido sin recargar la página (con AJAX).
+
+- También estamos usando jQuery que es una biblioteca de JavaScript que simplifica el manejo de eventos, la manipulación del DOM, las animaciones y las interacciones AJAX.
+
+  	- Beneficios:
+
+	Sintaxis Simple: Simplifica la escritura de código JavaScript con una sintaxis más corta y fácil de leer.
+
+	Compatibilidad entre Navegadores: Maneja automáticamente las diferencias entre los navegadores, asegurando que el código funcione correctamente en todos ellos.
+
+	Plugins: Amplia funcionalidad mediante una gran cantidad de plugins disponibles para diversas tareas.
+
+	- Ejemplos de Uso:
+
+	Manejo de Eventos: Asignar eventos como clics y desplazamientos de manera sencilla.
+
+	Manipulación del DOM: Seleccionar y modificar elementos del DOM con facilidad.
+
+	Animaciones: Crear efectos visuales y animaciones complejas con pocas líneas de código.
+
+	Interacciones AJAX: Realizar solicitudes AJAX de manera simple y eficiente
+
+- Estamos usando HTML5 que es el estándar más reciente del lenguaje de marcado para la creación de páginas web, que aporta nuevas funcionalidades y mejoras.
+
+  	- Características Principales:
+
+	Semántica Mejorada: Introduce nuevos elementos semánticos como elementos de encabezado (`<header>`), pie de página (`<footer>`), sección (`<section>`), artículo (`<article>`), entre otros. Estos elementos ayudan 	a estructurar el contenido de manera más clara y significativa
+
+	Multimedia: Admite nativamente elementos multimedia como <audio> y <video>, eliminando la necesidad de plugins externos como Flash.
+
+	Formularios Mejorados: Incluye nuevos tipos de entrada para formularios como (`<input type="date">`), (`<input type="email">`), (`<input type="number">`), entre otros, que mejoran la experiencia del usuario y la 	validación de datos.
+
+	Gráficos y Animaciones: Introduce la etiqueta <canvas> para dibujar gráficos dinámicos y la API (`<svg>`) para crear gráficos vectoriales escalables.
+
+	Almacenamiento Local: Permite el almacenamiento local de datos mediante la API localStorage y sessionStorage, mejorando el rendimiento y la experiencia del usuario en aplicaciones web.
+
+	Acceso a Dispositivos: Facilita el acceso a características del dispositivo como la geolocalización a través de la API de geolocalización.
+
+	- Beneficios de HTML5:
+	
+ 	Compatibilidad: Es compatible con todos los navegadores modernos y dispositivos móviles.
+
+	Mejora de la Experiencia del Usuario: Permite crear sitios web más rápidos, interactivos y accesibles.
+
+	Adopción Generalizada: Ampliamente adoptado por desarrolladores y compatible con las mejores prácticas de diseño web moderno.
+
+- También usamos CSS que es utilizado para definir la presentación y el diseño de las páginas web.
+
+	- Beneficios de CSS:
+
+	Separación de Contenido y Presentación: Permite mantener el contenido y el diseño separados, facilitando la gestión y la actualización del sitio web.
+
+	Flexibilidad: Ofrece una amplia gama de opciones para personalizar la apariencia de los elementos de la página.
+
+	Compatibilidad: Es compatible con todos los navegadores modernos y dispositivos, asegurando una experiencia consistente para los usuarios.
+
+- Además usamos Bootstrap 5 que es un framework de CSS que facilita el diseño web responsivo y atractivo. Proporciona estilos predefinidos y componentes de interfaz de usuario como botones, formularios, y navegación.
+
+	- Características Principales:
+
+	Diseño Responsivo: Adapta automáticamente el diseño de la página al tamaño de la pantalla del dispositivo, mejorando la experiencia del usuario en dispositivos móviles y de escritorio.
+
+	Componentes Reutilizables: Ofrece una amplia gama de componentes listos para usar como barras de navegación, tarjetas, botones, y modales, que facilitan el desarrollo rápido y consistente de interfaces.
+
+	Cuadrícula Flexbox: Utiliza el sistema de cuadrícula Flexbox para organizar y alinear los elementos en la página de manera flexible y eficiente.
+
+	Personalización: Permite personalizar fácilmente los estilos y componentes según las necesidades del proyecto mediante variables CSS y opciones de configuración.
+
+	- Beneficios de Bootstrap 5:
+
+	Productividad: Reduce el tiempo de desarrollo al proporcionar soluciones listas para usar y estilos coherentes.
+
+	Compatibilidad Cross-Browser: Asegura una experiencia de usuario consistente en diferentes navegadores y dispositivos.
+
+	Comunidad y Soporte: Amplia comunidad de desarrolladores y documentación extensa que facilita el aprendizaje y la resolución de problemas.
+
 ## Limitaciones del Proyecto
 
 1. **Dependencia de Conexión a Internet**: 
