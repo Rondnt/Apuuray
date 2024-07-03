@@ -86,6 +86,62 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
     - Almacena los datos de las vacaciones de los trabajadores.
     - Campos principales: id_vacacion, id_trabajador, fecha_inicio, fecha_fin, estado_vacacion.
 
+## **Framework**
+  **BackEnd**
+
+1. Introducción:
+   El backend de FrieKen ChickenShop está desarrollado utilizando Laravel, un potente framework de PHP que proporciona una estructura sólida y escalable para el desarrollo de aplicaciones web. Laravel se destaca por su elegante sintaxis, su enfoque en la simplicidad y su amplio conjunto de características que agilizan el proceso de desarrollo.
+
+2. Arquitectura backend:
+   Apuuray sigue una arquitectura basada en el patrón Modelo-Vista-Controlador (MVC), que separa la lógica de la aplicación en tres componentes principales:
+   - Modelos: Representan la estructura de datos y la lógica de negocio. Se encuentran en la carpeta "modelos".
+   - Vistas: Se encargan de la presentación de la información al usuario. Se encuentran en la carpeta "vistas".
+   - Controladores: Gestionan las solicitudes entrantes, interactúan con los modelos y devuelven las respuestas adecuadas. Se encuentran en la carpeta "controladores".
+   
+   Además, la carpeta "extensiones" contiene clases y funciones auxiliares que se utilizan en diferentes partes del backend, proporcionando funcionalidades adicionales y promoviendo la reutilización de código.
+
+3. Controladores:
+   Los controladores en FrieKen ChickenShop se encargan de manejar la lógica de la aplicación y procesar las solicitudes entrantes. Por ejemplo, el controlador "Asistencia.controlador.php" se encarga de gestionar las operaciones relacionadas con la asistencia de los trabajadores, mientras que el controlador "Categoria.controlador.php" maneja las operaciones relacionadas con las categorías de productos.
+   
+   Los controladores interactúan con los modelos para obtener o modificar datos, y con las vistas para generar las respuestas adecuadas. Utilizan métodos específicos para cada acción, como listar, crear, actualizar o eliminar registros, y devuelven las respuestas en formato JSON para una fácil integración con el frontend.
+
+4. Modelos y base de datos:
+   Los modelos en FrieKen ChickenShop representan las entidades y las tablas de la base de datos. Laravel utiliza el ORM (Object-Relational Mapping) Eloquent, que proporciona una forma intuitiva y expresiva de interactuar con la base de datos.
+   
+   Por ejemplo, el modelo "Asistencia.modelo.php" representa la tabla de asistencia de los trabajadores, mientras que el modelo "Categoria.modelo.php" representa la tabla de categorías de productos. Estos modelos definen la estructura de las tablas, las relaciones entre ellas y proporcionan métodos para realizar operaciones de consulta, inserción, actualización y eliminación de datos.
+   
+   Eloquent permite escribir consultas utilizando una sintaxis fluida y legible, lo que facilita la obtención y manipulación de datos de manera eficiente.
+
+5. Enrutamiento y API RESTful:
+   Laravel proporciona un sistema de enrutamiento intuitivo y expresivo que permite definir las rutas de la aplicación de manera clara y concisa. En FrieKen ChickenShop, las rutas se definen en el archivo de rutas de Laravel, donde se especifican las URL y los controladores asociados a cada ruta.
+   
+   El backend de FrieKen ChickenShop sigue los principios de una API RESTful, lo que significa que utiliza los verbos HTTP (GET, POST, PUT, DELETE) para indicar las operaciones a realizar y los endpoints para acceder a los recursos. Esto permite una comunicación eficiente y estandarizada con el frontend.
+   
+   Por ejemplo, una ruta como `GET /api/asistencias` podría devolver la lista de asistencias, mientras que `POST /api/categorias` podría crear una nueva categoría. Los controladores correspondientes manejan estas solicitudes y devuelven las respuestas adecuadas.
+
+6. Seguridad y autenticación:
+   Laravel ofrece un sistema de autenticación y autorización incorporado que permite proteger las rutas y asegurar el acceso a los recursos. En FrieKen ChickenShop, se utiliza este sistema para autenticar a los usuarios y garantizar que solo los usuarios autorizados puedan acceder a ciertas funcionalidades.
+   
+   Se implementan medidas de seguridad adicionales, como la validación de datos de entrada para prevenir inyección de SQL y ataques XSS, y el uso de tokens de autenticación para proteger las solicitudes a la API. Además, se aplican las mejores prácticas de seguridad, como el almacenamiento seguro de contraseñas y la protección contra ataques de fuerza bruta.
+
+7. Ventajas y beneficios:
+   Laravel ofrece varias ventajas y beneficios como framework backend:
+   - Curva de aprendizaje suave: Laravel tiene una sintaxis elegante y una estructura intuitiva, lo que facilita su aprendizaje y adopción por parte de los desarrolladores.
+   - Amplia documentación: Laravel cuenta con una documentación completa y detallada que cubre todos los aspectos del framework, lo que facilita la resolución de problemas y el aprendizaje de nuevas funcionalidades.
+   - Comunidad activa: Laravel tiene una comunidad activa y en crecimiento que proporciona soporte, recursos y paquetes adicionales para extender las capacidades del framework.
+   - Desarrollo rápido: Laravel ofrece un conjunto de herramientas y características que agilizan el proceso de desarrollo, como el sistema de migraciones de base de datos, el ORM Eloquent y el sistema de plantillas Blade.
+   - Mantenimiento del código: Laravel promueve el uso de buenas prácticas de desarrollo y sigue los principios SOLID, lo que facilita el mantenimiento y la escalabilidad del código.
+   
+   En el desarrollo de Apuuray, se aprovecharon características específicas de Laravel, como el sistema de autenticación incorporado, el ORM Eloquent para la interacción con la base de datos y el sistema de enrutamiento para crear una API RESTful robusta.
+
+8. Conclusión:
+   En resumen, el backend de FrieKen ChickenShop está desarrollado con Laravel y PHP, lo que proporciona una base sólida y eficiente para la aplicación. Laravel ofrece una estructura organizada siguiendo el patrón MVC, facilita la interacción con la base de datos a través de Eloquent, brinda un sistema de enrutamiento intuitivo y proporciona medidas de seguridad incorporadas.
+   
+   Esta elección tecnológica permite un desarrollo rápido, un mantenimiento sencillo y una escalabilidad a largo plazo. Además, la amplia documentación y la comunidad activa de Laravel brindan un gran apoyo durante el proceso de desarrollo.
+   
+   A medida que FrieKen ChickenShop crezca, se podrán aprovechar aún más las capacidades de Laravel para agregar nuevas funcionalidades y mejorar el rendimiento del backend. Con Laravel como base sólida, FrieKen ChickenShop está preparado para enfrentar los desafíos futuros y proporcionar una experiencia excepcional a sus usuarios.
+
+
 
 ## **Framework**
   **FrontEnd**
