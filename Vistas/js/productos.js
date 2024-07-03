@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-  /* ===========================
+  /* ============================
   MOSTRANDO PRODUCTO
-  =========================== */
+  ============================ */
   function mostrarProductos() {
     $.ajax({
       url: "ajax/Producto.ajax.php",
