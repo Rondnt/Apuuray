@@ -18,10 +18,10 @@ En resumen, Apuuray es mucho más que un simple software de gestión. Es una sol
 ###  **CASO DE ESTUDIO: EXPANSIÓN DE RIKOPOLLO A NUEVOS MERCADOS NACIONALES E INTERNACIONALES**
 
 1. **Introducción:**
-Rikopollo es una empresa líder en la producción y venta de productos de pollo de alta calidad en su país de origen. Con una sólida reputación en el mercado local, Rikopollo busca expandir sus ventas a nuevos mercados tanto a nivel nacional como internacional. El objetivo es aumentar su participación de mercado, diversificar sus ingresos y aprovechar nuevas oportunidades de crecimiento.
+Ricopollo es una empresa líder en la producción y venta de productos de pollo de alta calidad en su país de origen. Con una sólida reputación en el mercado local, Ricopollo busca expandir sus ventas a nuevos mercados tanto a nivel nacional como internacional. El objetivo es aumentar su participación de mercado, diversificar sus ingresos y aprovechar nuevas oportunidades de crecimiento.
 
 1. **Objetivos del Caso de Estudio**:
-Analizar el proceso de expansión de Rikopollo a nuevos mercados.
+Analizar el proceso de expansión de Ricopollo a nuevos mercados.
 Evaluar las estrategias utilizadas para penetrar en estos mercados.
 Identificar los desafíos y soluciones implementadas durante el proceso de expansión.
 Medir el impacto de la expansión en el crecimiento y la rentabilidad de la empresa.
@@ -29,7 +29,7 @@ Medir el impacto de la expansión en el crecimiento y la rentabilidad de la empr
 - **Fase 1: Análisis de Mercado**
 
 	**Investigación de Mercado:**
-Rikopollo inicia su proyecto de expansión realizando una exhaustiva investigación de mercado para identificar las regiones con mayor demanda de productos avícolas. Este análisis incluye:
+Ricopollo inicia su proyecto de expansión realizando una exhaustiva investigación de mercado para identificar las regiones con mayor demanda de productos avícolas. Este análisis incluye:
 
 	**- Estudio de Demanda:** Evaluar el consumo per cápita de productos de pollo en diferentes regiones.
 
@@ -42,13 +42,13 @@ Rikopollo inicia su proyecto de expansión realizando una exhaustiva investigaci
 - **Fase 2: Desarrollo de Estrategia de Expansión**
 
 	**Estrategia de Producto:**
-Rikopollo decide introducir una línea de productos diferenciados que incluye pollo fresco, congelado y preparados (empanizados, marinados, etc.) para atender a diversas preferencias del consumidor.
+Ricopollo decide introducir una línea de productos diferenciados que incluye pollo fresco, congelado y preparados (empanizados, marinados, etc.) para atender a diversas preferencias del consumidor.
 
 	**Estrategia de Precio:**
-Para ser competitivos, Rikopollo implementa una estrategia de precios basada en costos y valor percibido, ajustando los precios según el poder adquisitivo y la competencia en cada mercado.
+Para ser competitivos, Ricopollo implementa una estrategia de precios basada en costos y valor percibido, ajustando los precios según el poder adquisitivo y la competencia en cada mercado.
 
 	**Estrategia de Distribución:**
-Rikopollo establece varios canales de distribución:
+Ricopollo establece varios canales de distribución:
 
 	**- Distribuidores Locales:** Asociaciones con distribuidores ya establecidos en los mercados objetivo.
 
@@ -60,7 +60,7 @@ Rikopollo establece varios canales de distribución:
 
 	**- Campañas Publicitarias:** Uso de medios tradicionales y digitales para crear conciencia de marca y promocionar los productos.
 
-	**- Participación en Ferias Comerciales:** Rikopollo participa en eventos y ferias de la industria alimentaria para mostrar sus productos y establecer contactos comerciales.
+	**- Participación en Ferias Comerciales:** Ricopollo participa en eventos y ferias de la industria alimentaria para mostrar sus productos y establecer contactos comerciales.
 
 	**- Marketing Digital:** Uso de redes sociales y publicidad en línea para llegar a un público más amplio y diverso.
 
@@ -85,13 +85,13 @@ Rikopollo optimiza su cadena de suministro para garantizar la eficiencia y la ca
 
 	**Lanzamiento en Nuevos Mercados:**
 
-	**- Piloto Inicial:** Rikopollo lanza un programa piloto en algunas regiones seleccionadas para evaluar la aceptación del mercado y ajustar las estrategias según los resultados obtenidos.
+	**- Piloto Inicial:** Ricopollo lanza un programa piloto en algunas regiones seleccionadas para evaluar la aceptación del mercado y ajustar las estrategias según los resultados obtenidos.
 
-	**- Escalado:** Basado en el éxito del piloto, Rikopollo expande sus operaciones a otras regiones y países.
+	**- Escalado:** Basado en el éxito del piloto, Ricopollo expande sus operaciones a otras regiones y países.
 
 	**Monitoreo y Evaluación:**
 
-	**- Indicadores de Rendimiento:** Rikopollo establece KPIs para medir el éxito de la expansión, incluyendo ventas, participación de mercado, satisfacción del cliente y retorno de la inversión.
+	**- Indicadores de Rendimiento:** Ricopollo establece KPIs para medir el éxito de la expansión, incluyendo ventas, participación de mercado, satisfacción del cliente y retorno de la inversión.
 
 	**- Retroalimentación Continua:** Recolección y análisis de retroalimentación de clientes y socios comerciales para realizar mejoras continuas en productos y procesos.
 
@@ -101,7 +101,7 @@ Rikopollo optimiza su cadena de suministro para garantizar la eficiencia y la ca
 
 	**- Aumento de Ingresos:** La expansión ha llevado a un aumento significativo en las ventas y los ingresos de Rikopollo.
 
-	**- Diversificación de Mercados:** Rikopollo ha diversificado su presencia en diferentes mercados, reduciendo su dependencia del mercado local.
+	**- Diversificación de Mercados:** Ricopollo ha diversificado su presencia en diferentes mercados, reduciendo su dependencia del mercado local.
 
 	**- Fortalecimiento de Marca:** La presencia en nuevos mercados ha fortalecido la marca Rikopollo y aumentado su reconocimiento internacional.
 
