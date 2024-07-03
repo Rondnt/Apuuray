@@ -15,7 +15,7 @@ Tomar decisiones informadas y oportunas basadas en datos confiables.
 Apuuray se basa en una arquitectura modular y flexible, lo que permite una fácil integración con sistemas existentes y una personalización según los requisitos de cada empresa. Además, ofrecemos servicios de implementación, capacitación y soporte continuo para asegurar una adopción exitosa y un uso eficiente del sistema.
 En resumen, Apuuray es mucho más que un simple software de gestión. Es una solución integral diseñada a medida para las empresas de venta de productos avícolas y pescados en Arequipa, que busca optimizar sus operaciones, mejorar su rentabilidad y permitirles crecer de manera sostenible en un mercado cada vez más competitivo.
 
-###  **CASO DE ESTUDIO: EXPANSIÓN DE RIKOPOLLO A NUEVOS MERCADOS NACIONALES E INTERNACIONALES**
+###  **CASO DE ESTUDIO: EXPANSIÓN DE RICOPOLLO A NUEVOS MERCADOS NACIONALES E INTERNACIONALES**
 
 1. **Introducción:**
 Ricopollo es una empresa líder en la producción y venta de productos de pollo de alta calidad en su país de origen. Con una sólida reputación en el mercado local, Ricopollo busca expandir sus ventas a nuevos mercados tanto a nivel nacional como internacional. El objetivo es aumentar su participación de mercado, diversificar sus ingresos y aprovechar nuevas oportunidades de crecimiento.
@@ -67,7 +67,7 @@ Ricopollo establece varios canales de distribución:
 - **Fase 3: Logística y Operaciones**
 
 	**Cadena de Suministro:**
-Rikopollo optimiza su cadena de suministro para garantizar la eficiencia y la calidad en la entrega de productos. Esto incluye:
+Ricopollo optimiza su cadena de suministro para garantizar la eficiencia y la calidad en la entrega de productos. Esto incluye:
 
 	**- Centros de Distribución Regionales:** Establecimiento de centros de distribución en puntos estratégicos para facilitar la logística.
 
