@@ -132,7 +132,7 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
    - Desarrollo rápido: Laravel ofrece un conjunto de herramientas y características que agilizan el proceso de desarrollo, como el sistema de migraciones de base de datos, el ORM Eloquent y el sistema de plantillas Blade.
    - Mantenimiento del código: Laravel promueve el uso de buenas prácticas de desarrollo y sigue los principios SOLID, lo que facilita el mantenimiento y la escalabilidad del código.
    
-   En el desarrollo de Apuuray, se aprovecharon características específicas de Laravel, como el sistema de autenticación incorporado, el ORM Eloquent para la interacción con la base de datos y el sistema de enrutamiento para crear una API RESTful robusta.
+   En el desarrollo de FrieKen ChickenShop, se aprovecharon características específicas de Laravel, como el sistema de autenticación incorporado, el ORM Eloquent para la interacción con la base de datos y el sistema de enrutamiento para crear una API RESTful robusta.
 
 8. Conclusión:
    En resumen, el backend de FrieKen ChickenShop está desarrollado con Laravel y PHP, lo que proporciona una base sólida y eficiente para la aplicación. Laravel ofrece una estructura organizada siguiendo el patrón MVC, facilita la interacción con la base de datos a través de Eloquent, brinda un sistema de enrutamiento intuitivo y proporciona medidas de seguridad incorporadas.
