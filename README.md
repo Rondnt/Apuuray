@@ -28,6 +28,63 @@ Simplificar la administración de personal y el cumplimiento de obligaciones lab
 Tomar decisiones informadas y oportunas basadas en datos confiables.
 
 FrieKen se basa en una arquitectura modular y flexible, lo que permite una fácil integración con sistemas existentes y una personalización según los requisitos de cada empresa. Además, ofrecemos servicios de implementación, capacitación y soporte continuo para asegurar una adopción exitosa y un uso eficiente del sistema.
+## **Modelo de Base de Datos**
+[![Captura-de-pantalla-2024-07-03-070306.png](https://i.postimg.cc/KzHDqf1K/Captura-de-pantalla-2024-07-03-070306.png)](https://postimg.cc/dkGCD8mv)
+
+
+# Tablas de la Base de Datos de FrieKen ChickenShop
+
+1. Tabla "usuarios":
+   - Almacena la información de los usuarios del sistema.
+   - Campos principales: id_usuario, nombre_usuario, correo, contraseña, roles.
+
+2. Tabla "personas":
+   - Guarda los datos de clientes y proveedores.
+   - Campos principales: id_persona, tipo_persona, razon_social, numero_documento, direccion, telefono, email.
+
+3. Tabla "productos":
+   - Contiene los detalles de los productos disponibles.
+   - Campos principales: id_producto, id_categoria, codigo_producto, nombre_producto, precio_producto, stock_producto.
+
+4. Tabla "categorias":
+   - Almacena las categorías de los productos (pollos, pavitas, pescados).
+   - Campos principales: id_categoria, nombre_categoria, descripcion.
+
+5. Tabla "ventas":
+   - Registra las ventas realizadas.
+   - Campos principales: id_venta, id_persona, id_usuario, fecha_venta, tipo_comprobante, total_venta, tipo_pago.
+
+6. Tabla "detalle_venta":
+   - Guarda el detalle de cada venta, incluyendo los productos vendidos y sus cantidades.
+   - Campos principales: id_detalle_venta, id_venta, id_producto, precio_venta, cantidad.
+
+7. Tabla "egresos" (compras):
+   - Almacena la información de las compras realizadas a proveedores.
+   - Campos principales: id_egreso, id_persona, id_usuario, fecha_egreso, tipo_comprobante, total_compra, tipo_pago.
+
+8. Tabla "detalle_egreso":
+   - Guarda el detalle de cada compra, incluyendo los productos comprados y sus cantidades.
+   - Campos principales: id_detalle_egreso, id_egreso, id_producto, precio_compra, cantidad.
+
+9. Tabla "trabajadores":
+   - Contiene la información de los empleados de la empresa.
+   - Campos principales: id_trabajador, nombre, num_documento, telefono, correo, tipo_pago.
+
+10. Tabla "contratos_trabajadores":
+    - Almacena los detalles de los contratos de los trabajadores.
+    - Campos principales: id_contrato, id_trabajador, tiempo_contrato, tipo_sueldo, sueldo.
+
+11. Tabla "pagos_trabajadores":
+    - Registra los pagos realizados a los trabajadores.
+    - Campos principales: id_pagos, id_contrato, monto_pago, fecha_pago, estado_pago.
+
+12. Tabla "asistencia_trabajadores":
+    - Guarda la información de asistencia de los trabajadores.
+    - Campos principales: id_asistencia, id_trabajador, fecha_asistencia, hora_entrada, hora_salida, estado.
+
+13. Tabla "vacaciones":
+    - Almacena los datos de las vacaciones de los trabajadores.
+    - Campos principales: id_vacacion, id_trabajador, fecha_inicio, fecha_fin, estado_vacacion.
 
 
 ## **Framework**
