@@ -163,6 +163,7 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
 ### Reporte de usuarios
 [![9.png](https://i.postimg.cc/RFX4VKgs/9.png)](https://postimg.cc/XGGTsGSd)
 ### Código de barras por producto
+[![10.png](https://i.postimg.cc/P5mhcgnQ/10.png)](https://postimg.cc/dhtzZS1h)
 ### Creación del codigo de barra
 
 ##  CASO DE ESTUDIO
