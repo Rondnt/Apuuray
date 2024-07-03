@@ -1,0 +1,49 @@
+# Archivos y directorios de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de entorno
+.env
+
+# Archivos de registro
+*.log
+
+# Directorios de dependencias
+node_modules/
+vendor/
+
+# Archivos temporales y cachés
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# Archivos específicos de PHP
+composer.lock
+composer.phar
+
+# Archivos específicos de Bootstrap
+bootstrap/
+
+# Archivos específicos de jQuery
+jquery/
+
+# Archivos y carpetas de compilación
+dist/
+build/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Otros
+*.bak
+*.old
+*.backup
+
+# Ignorar todo en el directorio uploads excepto el archivo .gitkeep
+/uploads/*
+!/uploads/.gitkeep
