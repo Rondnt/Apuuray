@@ -1,4 +1,21 @@
+
 [![gaaa-1.png](https://i.postimg.cc/SxqTV3S9/gaaa-1.png)](https://postimg.cc/qzbxvmCB)
+# 🐔 FrieKen ChickenShop 🐟
+
+### 📚 Semestre del Curso: VII
+
+### 🖥️ Nombre del Curso: Ingeniería Web
+
+### 👨‍🏫 Nombre del Profesor: Richart Escobedo Quispe
+
+### 👥 Integrantes:
+- **Jose Rondón Torres**
+- **Yoel Ccorihuaman Guillen**
+- **Patrick Gonzales Fernández**
+- **Kevin Gonzales Fernández**
+
+### 📅 Semestre Académico: 2024-I
+
 ## Presentación
 FrieKen es un sistema de gestión integral diseñado específicamente para empresas de venta de productos avícolas y pescados en Arequipa. Nuestro objetivo es brindar una solución completa que aborde los desafíos y mejore la eficiencia de estas empresas en sus operaciones diarias.
 En la ciudad de Arequipa, muchas empresas de este sector enfrentan dificultades en la gestión de sus procesos, como el control de inventario, las compras y ventas, la administración de clientes y proveedores, y la gestión del personal. Estos desafíos pueden generar ineficiencias, pérdida de control y falta de visibilidad, lo que dificulta la toma de decisiones basadas en datos.
