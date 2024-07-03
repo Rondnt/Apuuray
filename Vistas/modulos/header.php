@@ -2,7 +2,7 @@
 
     <div class="header-left active">
         <a href="#" class="logo">
-            <img src="vistas/dist/assets/img/logo-apuuray.png" alt="">
+            <img src="vistas/dist/assets/img/logo-frikeen.png" alt="">
         </a>
         <a href="#" class="logo-small">
             <img src="vistas/dist/assets/img/logo-small.png" alt="">
