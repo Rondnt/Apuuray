@@ -111,3 +111,67 @@ Ricopollo optimiza su cadena de suministro para garantizar la eficiencia y la ca
 	**- Logística Compleja:** Implementación de soluciones tecnológicas y asociaciones estratégicas para manejar la logística y la distribución eficiente.
 
 	**- Competencia Intensa:** Diferenciación a través de la calidad del producto y estrategias de marketing efectivas para superar la competencia.
+
+## Limitaciones del Proyecto
+
+1. **Dependencia de Conexión a Internet**: 
+    - FrieKen requiere una conexión a internet estable para funcionar correctamente, lo que puede ser una limitación en áreas con conectividad deficiente.
+
+2. **Capacidad del Servidor**: 
+    - La eficiencia y rapidez del sistema dependen en gran medida de la capacidad del servidor donde está alojado. Servidores con poca capacidad de procesamiento o almacenamiento pueden ralentizar el rendimiento del sistema.
+
+3. **Seguridad**: 
+    - Aunque se implementen medidas de seguridad, siempre existe el riesgo de vulnerabilidades, especialmente con tecnologías de backend basadas en PHP, que son comunes objetivos de ataques.
+
+4. **Mantenimiento y Actualización**: 
+    - La necesidad de actualizaciones constantes tanto del software como de los componentes de seguridad puede ser una carga adicional para el equipo de desarrollo.
+
+## Requisitos Específicos del Software
+
+1. **Servidor Web**:
+    - Apache o Nginx con soporte para PHP.
+
+2. **Base de Datos**:
+    - MySQL o PostgreSQL para gestionar las bases de datos de clientes, inventarios, ventas, etc.
+
+3. **PHP**:
+    - Versión 7.4 o superior para garantizar la compatibilidad y seguridad de las aplicaciones.
+
+4. **Frontend**:
+    - HTML5 para la estructura y contenido de las páginas.
+    - CSS para la presentación y diseño.
+    - JavaScript y jQuery para la interactividad y dinamismo.
+    - Bootstrap 5 para un diseño responsivo y componentes de UI.
+
+5. **Gestión de Dependencias**:
+    - Composer para gestionar las dependencias de PHP.
+
+6. **Control de Versiones**:
+    - Git para el control de versiones y colaboración entre desarrolladores.
+
+## Recomendaciones
+
+1. **Escalabilidad**:
+    - Implementar una arquitectura escalable que permita el crecimiento del sistema sin sacrificar el rendimiento. Considerar la posibilidad de utilizar servicios en la nube para el alojamiento.
+
+2. **Seguridad**:
+    - Utilizar HTTPS para todas las comunicaciones.
+    - Implementar sanitización y validación de entradas para prevenir inyecciones SQL y otros tipos de ataques.
+    - Mantener el software actualizado con los últimos parches de seguridad.
+
+3. **Optimización del Código**:
+    - Revisar y optimizar el código PHP para mejorar el rendimiento.
+    - Utilizar técnicas de carga asíncrona para mejorar la experiencia del usuario en el frontend.
+
+4. **Compatibilidad**:
+    - Realizar pruebas exhaustivas en diferentes navegadores y dispositivos para asegurar la compatibilidad.
+    - Considerar el uso de Polyfills para funciones JavaScript que no son compatibles con navegadores antiguos.
+
+5. **Documentación y Soporte**:
+    - Mantener una documentación clara y detallada del código y de la infraestructura.
+    - Ofrecer capacitación y soporte continuo a los usuarios para asegurar una adopción exitosa del sistema.
+
+6. **Mantenimiento Regular**:
+    - Establecer un calendario regular de mantenimiento para actualizar el software, realizar copias de seguridad y verificar la integridad del sistema.
+
+Estas recomendaciones y limitaciones proporcionarán una guía clara para garantizar el éxito y la sostenibilidad de FrieKen, asegurando que las empresas de venta de productos avícolas y pescados en Arequipa puedan optimizar sus operaciones y crecer de manera eficiente.
