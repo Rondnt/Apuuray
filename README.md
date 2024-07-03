@@ -31,7 +31,32 @@ Tomar decisiones informadas y oportunas basadas en datos confiables.
 FrieKen se basa en una arquitectura modular y flexible, lo que permite una fácil integración con sistemas existentes y una personalización según los requisitos de cada empresa. Además, ofrecemos servicios de implementación, capacitación y soporte continuo para asegurar una adopción exitosa y un uso eficiente del sistema.
 En resumen, Apuuray es mucho más que un simple software de gestión. Es una solución integral diseñada a medida para las empresas de venta de productos avícolas y pescados en Arequipa, que busca optimizar sus operaciones, mejorar su rentabilidad y permitirles crecer de manera sostenible en un mercado cada vez más competitivo.
 
-###  **CASO DE ESTUDIO: EXPANSIÓN DE RICOPOLLO A NUEVOS MERCADOS NACIONALES E INTERNACIONALES**
+## INTERFACES
+### Sistema de logeo e inicio de sesión
+[![1.png](https://i.postimg.cc/d1mDRh4r/1.png)](https://postimg.cc/G8tcdm0m)
+### Panel de datos generales
+[![2.png](https://i.postimg.cc/Xqjqsnzh/2.png)](https://postimg.cc/phSPTMxY)
+### Lista de usuarios
+[![3.png](https://i.postimg.cc/qq1RY9f7/3.png)](https://postimg.cc/wRsgR4jK)
+### Lista de productos
+[![4.png](https://i.postimg.cc/X7vXF7FB/4.png)](https://postimg.cc/s1tVCzT3)
+### Realizar compras
+[![5.png](https://i.postimg.cc/02HjCRdW/5.png)](https://postimg.cc/MvVzWLLV)
+### Lista de compras
+[![6.png](https://i.postimg.cc/JzDn66p1/6.png)](https://postimg.cc/VJwm5RyT)
+### Lista de clientes
+[![7.png](https://i.postimg.cc/d0cqWq7B/7.png)](https://postimg.cc/JsKV0C5D)
+### Lista de trabajadores
+[![8.png](https://i.postimg.cc/CKCwXWkV/8.png)](https://postimg.cc/QBtLWYf6)
+### Reporte de usuarios
+[![9.png](https://i.postimg.cc/RFX4VKgs/9.png)](https://postimg.cc/XGGTsGSd)
+### Código de barras por producto
+[![10.png](https://i.postimg.cc/zvQNT5ZT/10.png)](https://postimg.cc/K3tCy6YY)
+### Creación del codigo de barra
+![11.png](https://i.postimg.cc/7PtwF1Gb/11.png)](https://postimg.cc/vDnJ9Vvd)
+
+##  CASO DE ESTUDIO
+### **EXPANSIÓN DE RICOPOLLO A NUEVOS MERCADOS NACIONALES E INTERNACIONALES**
 
 1. **Introducción:**
 Ricopollo es una empresa líder en la producción y venta de productos de pollo de alta calidad en su país de origen. Con una sólida reputación en el mercado local, Ricopollo busca expandir sus ventas a nuevos mercados tanto a nivel nacional como internacional. El objetivo es aumentar su participación de mercado, diversificar sus ingresos y aprovechar nuevas oportunidades de crecimiento.
