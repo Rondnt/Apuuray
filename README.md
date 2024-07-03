@@ -93,7 +93,7 @@ FrieKen se basa en una arquitectura modular y flexible, lo que permite una fáci
    El backend de FrieKen ChickenShop está desarrollado utilizando Laravel, un potente framework de PHP que proporciona una estructura sólida y escalable para el desarrollo de aplicaciones web. Laravel se destaca por su elegante sintaxis, su enfoque en la simplicidad y su amplio conjunto de características que agilizan el proceso de desarrollo.
 
 2. Arquitectura backend:
-   Apuuray sigue una arquitectura basada en el patrón Modelo-Vista-Controlador (MVC), que separa la lógica de la aplicación en tres componentes principales:
+   FrieKen ChickenShop sigue una arquitectura basada en el patrón Modelo-Vista-Controlador (MVC), que separa la lógica de la aplicación en tres componentes principales:
    - Modelos: Representan la estructura de datos y la lógica de negocio. Se encuentran en la carpeta "modelos".
    - Vistas: Se encargan de la presentación de la información al usuario. Se encuentran en la carpeta "vistas".
    - Controladores: Gestionan las solicitudes entrantes, interactúan con los modelos y devuelven las respuestas adecuadas. Se encuentran en la carpeta "controladores".
