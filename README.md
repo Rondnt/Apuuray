@@ -174,4 +174,3 @@ Ricopollo optimiza su cadena de suministro para garantizar la eficiencia y la ca
 6. **Mantenimiento Regular**:
     - Establecer un calendario regular de mantenimiento para actualizar el software, realizar copias de seguridad y verificar la integridad del sistema.
 
-Estas recomendaciones y limitaciones proporcionarán una guía clara para garantizar el éxito y la sostenibilidad de FrieKen, asegurando que las empresas de venta de productos avícolas y pescados en Arequipa puedan optimizar sus operaciones y crecer de manera eficiente.
