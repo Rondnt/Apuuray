@@ -15,6 +15,131 @@
 
 ### 📅 Semestre Académico: 2024-I
 
+## Tutorial de Instalación y Ejecución de FrieKen ChickenShop en Ubuntu y Docker
+
+### Requisitos Previos
+1. **Ubuntu** (Versión 18.04 o superior).
+2. **Docker** y **Docker Compose** instalados.
+3. **XAMPP** descargado (para el entorno Ubuntu).
+4. Archivo `sis_venta_pollos` descargado desde [aquí](https://drive.google.com/file/d/1wj1Zyhy1AKkoasXY75Sex6h4LMuFsFfi/view?usp=sharing).
+
+### Instalación en Ubuntu
+
+### Paso 1: Instalación de XAMPP
+Descargar e instalar XAMPP:
+	
+	wget https://www.apachefriends.org/xampp-files/7.4.29/xampp-linux-x64-7.4.29-1-installer.run
+	chmod +x xampp-linux-x64-7.4.29-1-installer.run
+	sudo ./xampp-linux-x64-7.4.29-1-installer.run
+
+### Paso 2: Configuración de XAMPP
+1. Iniciar XAMPP:
+	```bash
+   	sudo /opt/lampp/lampp start
+2. Navegar por la carpeta htdocs:
+	```bash
+	cd /opt/lampp/htdocs
+ 
+4. Descomprimir el archivo sis_venta_pollosen la carpeta htdocs:
+	```bash
+	sudo apt-get install unzip
+	unzip ~/Downloads/sis_venta_pollos.zip -d /opt/lampp/htdocs/
+
+### Paso 3: Configuración de la base de datos
+1. Abrir phpMyAdmin:
+	- Navegar http://localhost/phpmyadminen su navegador.
+2. Crear la base de datos sys_venta_pollos
+3. Importar la base de datos desde el archivo SQL:
+	- Navegar a Importaren phpMyAdmin.
+	- Seleccionar el archivo SQL que se encuentra en la carpeta descomprimida sis_venta_pollos.
+4. Paso 4: Ejecutar la aplicación
+	- Navegar http://localhost/sis_venta_pollosen su navegador.
+	- La aplicación debería estar funcionando correctamente.
+	- Coloque como usuario Jorge y contraseña Jorge123$
+
+### Instalación en Docker
+### Paso 1: Creación del Dockerfile
+Crear un archivo Dockerfileen el directorio raíz del proyecto con el siguiente contenido:
+
+	```bash
+ 	FROM php:7.4-apache
+
+	# Instalar extensiones necesarias
+	RUN docker-php-ext-install mysqli pdo pdo_mysql
+	
+	# Copiar archivos del proyecto
+	COPY . /var/www/html/
+	
+	# Configurar Apache
+	RUN chown -R www-data:www-data /var/www/html \
+	    && a2enmod rewrite
+	
+	# Configurar permisos
+	RUN chmod -R 755 /var/www/html
+	
+	# Exponer el puerto 80
+	EXPOSE 80
+
+### Paso 2: Creación del archivo docker-compose.yml
+Crear un archivo docker-compose.ymlen el directorio raíz del proyecto con el siguiente contenido:
+	```bash
+ 	
+  	version: '3.1'
+
+	services:
+	  web:
+	    build: .
+	    ports:
+	      - "8080:80"
+	    volumes:
+	      - .:/var/www/html
+	    links:
+	      - db
+	  db:
+	    image: mysql:5.7
+	    environment:
+	      MYSQL_ROOT_PASSWORD: root
+	      MYSQL_DATABASE: sys_venta_pollos
+	    volumes:
+	      - db_data:/var/lib/mysql
+	
+	volumes:
+	  db_data:
+
+
+### Paso 3: Construir y ejecutar los contenedores
+1. Construir los contenedores:
+	```bash
+ 	sudo docker-compose build
+
+2. Iniciar los contenedores:
+	```bash
+	sudo docker-compose up -d
+
+### Paso 4: Configuración de la base de datos
+1. Acceder al contenedor web:
+	```bash
+	sudo docker exec -it $(sudo docker ps -qf "name=web") bash
+ 
+2. Instalar unzipdentro del contenedor (si no está instalado):
+	```bash
+ 	apt-get update && apt-get install -y unzip
+
+3. Descomprimir el archivo sis_venta_pollosen el directorio /var/www/htmldel contenedor:
+	```bash
+ 	unzip /var/www/html/sis_venta_pollos.zip -d /var/www/html/
+4. Acceda a phpMyAdmin http://localhost:8080/phpmyadminy configure la base de datos como se describió anteriormente en la sección de Ubuntu.
+
+### Paso 5: Ejecutar la aplicación
+1. Navegar http://localhost:8080/sis_venta_pollosen su navegador.
+2. La aplicación debería estar funcionando correctamente.
+3. Coloque como usuario Jorge y contraseña Jorge123$
+
+### Notas finales
+- Asegúrese de tener todos los permisos necesarios para ejecutar comandos con sudo.
+- Si encuentra algún problema, consulte la documentación de Docker y XAMPP.
+- Este tutorial asume que está familiarizado con el uso de la terminal en Ubuntu y Docker.
+
 ## Presentación
 FrieKen es un sistema de gestión integral diseñado específicamente para empresas de venta de productos avícolas y pescados en Arequipa. Nuestro objetivo es brindar una solución completa que aborde los desafíos y mejore la eficiencia de estas empresas en sus operaciones diarias.
 En la ciudad de Arequipa, muchas empresas de este sector enfrentan dificultades en la gestión de sus procesos, como el control de inventario, las compras y ventas, la administración de clientes y proveedores, y la gestión del personal. Estos desafíos pueden generar ineficiencias, pérdida de control y falta de visibilidad, lo que dificulta la toma de decisiones basadas en datos.
